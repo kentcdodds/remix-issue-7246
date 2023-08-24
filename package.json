@@ -1,0 +1,31 @@
+{
+	"name": "remix-ts-issue",
+	"private": true,
+	"sideEffects": false,
+	"scripts": {
+		"build": "remix build",
+		"dev": "remix dev",
+		"start": "remix-serve build",
+		"typecheck": "tsc"
+	},
+	"dependencies": {
+		"@remix-run/css-bundle": "0.0.0-nightly-49e8da1-20230823",
+		"@remix-run/node": "0.0.0-nightly-49e8da1-20230823",
+		"@remix-run/react": "0.0.0-nightly-49e8da1-20230823",
+		"@remix-run/serve": "0.0.0-nightly-49e8da1-20230823",
+		"isbot": "^3.6.8",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@remix-run/dev": "0.0.0-nightly-49e8da1-20230823",
+		"@remix-run/eslint-config": "0.0.0-nightly-49e8da1-20230823",
+		"@types/react": "^18.0.35",
+		"@types/react-dom": "^18.0.11",
+		"eslint": "^8.38.0",
+		"typescript": "^5.0.4"
+	},
+	"engines": {
+		"node": ">=14.0.0"
+	}
+}
